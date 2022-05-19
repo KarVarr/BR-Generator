@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <!-- TITLE -->
+    <title>BR generator</title>
+    <!-- ICON -->
+    <link rel="icon" href="img/Layer 13.png">
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+
+    
+</head>
+
+<body>
+    
+
+    <div class="container">
+        <div class="header">
+            <h1>Border-radius generator</h1>
+        </div>
+        <div class="card">
+            <div class="top">
+                <div class="top__left">
+                    <form action="">
+                        <p>top-left</p>
+                        <input type="range" id="topLeft" min="0px" max="100px" step="1px"value="20">
+                        <label for="topLeft"></label>
+                    </form>
+                    <form action="">
+                        <p>bottom-left</p>
+                        <input type="range" id="bottomLeft" min="0px" max="100px" step="1px" value="20">
+                        <label for="bottomLeft"></label>
+                    </form>
+                    
+                </div>
+
+                <div class="top__middle__box">
+                    <div class="box"></div>
+                </div>
+
+                <div class="top__right">
+                    <form action="">
+                        <p>top-Right</p>
+                        <input type="range" id="topRight" min="0px" max="100px" step="1px" value="20">
+                        <label for="topRight"></label>
+                    </form>
+                    <form action="">
+                        <p>bottom-Right</p>
+                        <input type="range" id="bottomRight" min="0px" max="100px" step="1px" value="2"> 
+                        <label for="bottomRight"></label>
+                    </form>
+                </div>
+
+            </div>
+
+            <div class="bottom">
+                <p>css code:</p>
+                    <textarea name="text" id="textareaId" cols="50" rows="2"  readonly>
+                        
+                    </textarea>
+                    <button id="copyBtn" ><i class="fa-solid fa-copy"></i></button>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- SCRIPT -->
+
+    <script src="https://kit.fontawesome.com/74199ae25c.js" crossorigin="anonymous"></script>
+    <script src="style.js"></script>
+</body>
+</html>
